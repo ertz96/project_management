@@ -22,7 +22,7 @@ Route::middleware('auth')->group(function () {
 require __DIR__ . '/auth.php';
 
 
-// Project Management
+// Project Management//
 Route::middleware(['auth'])->group(function () {
     Route::get('/projects', [ProjectController::class, 'index'])->name('projects.index');
 });
