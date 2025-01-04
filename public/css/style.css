@@ -1,0 +1,77 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.project-title {
+    color: #007bff;
+    margin-top: 20px;
+}
+
+.task-item {
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-title {
+    font-weight: bold;
+}
+
+.task-description {
+    color: #6c757d;
+}
+
+.task-status {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.accordion {
+    max-width: auto;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.accordion-header {
+    background-color: #d3d3d3;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+}
+
+.accordion-content {
+    display: none;
+    /* Versteckt den Inhalt */
+    padding: 15px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+.accordion-content p {
+    margin: 0;
+}
+
+.accordion-header-inner {
+    background-color: #808080;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+}
